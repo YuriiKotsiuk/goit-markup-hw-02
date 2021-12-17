@@ -1,0 +1,218 @@
+:root {
+--header-background-color:#FFFFFF;
+--hover-focus-color:#2196F3;
+--head-dark-color:#212121;
+--body-dark-color:#212121;
+
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+    background-color:  #E5E5E5;
+}
+
+ .list {
+    list-style: none;
+} 
+
+.link {
+    text-decoration: none;
+} 
+
+[href] {
+    text-decoration: none;
+} 
+
+ /* ------------------HEADER------------------ !!!! */
+.header {
+    background-color: var(--header-background-color);
+}
+/* ---------------------Підключення шрифта Raleway--------------------- */
+.link-header {
+    font-family: "Raleway" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;    
+    letter-spacing: 0.03em;
+    color: var(--head-dark-color);
+}
+
+
+.logo {
+color: #2196F3;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--body-dark-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-focus-color);
+}
+
+.header-link-one {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-link-one:hover,
+.header-link-one:focus {
+    color:var(--hover-focus-color);
+}
+
+/* ------------------HERO----------------- */
+
+.hero {
+    background-color:#2F303A ;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFf
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFfFF
+}
+.hero-btn:hover,
+.hero-btn:focus {
+   color:  #FFFFFF;
+}
+.hero-btn {
+    background-color: #2196F3;
+}
+
+/* --------------------------SECTION_ABOUT------------------------ */
+
+.about-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--body-dark-color);
+}
+
+.about-pgf {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------------------WORK------------------------ */
+
+.project-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+}
+
+/* -------------------------TEAM------------------------- */
+.work-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+}
+
+
+.work-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+}
+
+.work-pgf {
+    font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.about-team {
+    background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+/* -------------------------FOOTER------------------------- */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.link-footer {font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:  #FFFFFF;
+}
+
+.footer-link-city {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link-city:hover,
+.footer-link-city:focus {
+    color: var(--hover-focus-color);
+}
+
+
+.footer-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover, 
+.footer-link:focus {
+   color:  var(--hover-focus-color);
+}
+
+
+
+/* --------------------------PORTFOLIO-------------------------- */
+
+/* ХЕДЕР ВЗЯТИЙ ІЗ INDEX.HTML */
+
+/* ------------------------------MAIN------------------------------ */
+
