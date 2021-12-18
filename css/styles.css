@@ -125,7 +125,7 @@ color: #2196F3;
 /* ------------------------WORK------------------------ */
 
 .project-title {
-    font-weight: bold;
+    
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -135,7 +135,7 @@ color: #2196F3;
 
 /* -------------------------TEAM------------------------- */
 .work-title {
-    font-weight: bold;
+    
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -173,13 +173,7 @@ color: #2196F3;
     background-color: #2F303A;
 }
 
-.link-footer {
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color:  #FFFFFF;
-}
+
 
 .footer-link-city {
     font-family: "Roboto" , sans-serif;
