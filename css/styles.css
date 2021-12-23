@@ -3,7 +3,14 @@
 --hover-focus-color:#2196F3;
 --head-dark-color:#212121;
 --body-dark-color:#212121;
+}
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
 }
 
 body {
@@ -26,6 +33,8 @@ body {
  /* ------------------HEADER------------------ !!!! */
 .header {
     background-color: var(--header-background-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 /* ---------------------Підключення шрифта Raleway--------------------- */
 .link-header {
@@ -74,6 +83,9 @@ color: #2196F3;
 
 .hero {
     background-color:#2F303A ;
+    padding-top: 200px;
+    padding-bottom: 200px; 
+    
 }
 .hero-title {
     font-weight: 900;
@@ -105,14 +117,20 @@ color: #2196F3;
 }
 
 /* --------------------------SECTION_ABOUT------------------------ */
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 .about-title {
-   
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--body-dark-color);
+    margin-bottom: 10px;
+
 }
 
 .about-pgf {
@@ -120,6 +138,16 @@ color: #2196F3;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    
+    
+}
+
+/* ----------------------------------SECTION-FOTO---------------------------------- */
+.foto {
+
+}
+.project-title {
+    margin-bottom: 50px;
 }
 
 /* ------------------------WORK------------------------ */
@@ -134,13 +162,18 @@ color: #2196F3;
 }
 
 /* -------------------------TEAM------------------------- */
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .work-title {
-    
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--body-dark-color);
+    margin-bottom: 50PX;
 }
 
 
@@ -151,6 +184,8 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--body-dark-color);
+    margin-top: 30;
+    margin-bottom: 10px;
 }
 
 .work-pgf {
@@ -171,6 +206,8 @@ color: #2196F3;
 
 .footer {
     background-color: #2F303A;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
