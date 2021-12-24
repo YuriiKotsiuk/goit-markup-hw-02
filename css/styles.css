@@ -34,9 +34,9 @@ body {
 .header {
     background-color: var(--header-background-color);
     padding-top: 24px;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 }
-/* ---------------------Підключення шрифта Raleway--------------------- */
+
 .link-header {
     font-family: "Raleway" , sans-serif;
     font-style: normal;
@@ -45,6 +45,36 @@ body {
     line-height: 1.19;    
     letter-spacing: 0.03em;
     color: var(--head-dark-color);
+    margin-right: 93px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-one {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-link-one {
+    margin-right: 50px;
 }
 
 
@@ -82,11 +112,12 @@ color: #2196F3;
 /* ------------------HERO----------------- */
 
 .hero {
-    background-color:#2F303A ;
+    background-color:#2F303A;
     padding-top: 200px;
     padding-bottom: 200px; 
-    
-}
+    text-align:center}
+
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -94,7 +125,8 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFf
+    color: #FFFFFf;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -106,19 +138,22 @@ color: #2196F3;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFfFF
-}
+    color: #FFFfFF;
+   }
+
+
 .hero-btn:hover,
 .hero-btn:focus {
    color:  #FFFFFF;
 }
 .hero-btn {
     background-color: #2196F3;
+    margin: auto;
 }
 
 /* --------------------------SECTION_ABOUT------------------------ */
 .about {
-    padding-top: 94px;
+    padding-top: 0px;
     padding-bottom: 94px;
 }
 
@@ -143,9 +178,7 @@ color: #2196F3;
 }
 
 /* ----------------------------------SECTION-FOTO---------------------------------- */
-.foto {
 
-}
 .project-title {
     margin-bottom: 50px;
 }
@@ -303,6 +336,5 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 
-/* ------------------------FOOTER PORTFOLIO------------------------ */
-/* --------------------ФУТЕР ВЗЯТИЙ З INDEX.HTML-------------------- */
+
 
