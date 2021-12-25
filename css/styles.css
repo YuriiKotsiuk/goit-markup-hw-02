@@ -33,8 +33,7 @@ body {
  /* ------------------HEADER------------------ !!!! */
 .header {
     background-color: var(--header-background-color);
-    padding-top: 24px;
-    /* padding-bottom: 25px; */
+   
 }
 
 .link-header {
@@ -46,6 +45,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--head-dark-color);
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-container {
@@ -68,14 +69,18 @@ body {
     align-items: center;
     margin-left: auto;
 }
+.header-list-one > .header-item-one:first-child {
+    margin-right: 50px;
+
+}
 
 .header-item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-link-one {
+/* .header-link-one:first-child {
     margin-right: 50px;
-}
+} */
 
 
 .logo {
@@ -153,8 +158,23 @@ color: #2196F3;
 
 /* --------------------------SECTION_ABOUT------------------------ */
 .about {
-    padding-top: 0px;
-    padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 0px;
+}
+
+.about-list {
+    display: flex;
+    flex-wrap: nowrap;
+   margin: -15px;
+}
+
+.about-item {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+}
+
+.about-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 
@@ -180,24 +200,59 @@ color: #2196F3;
 /* ----------------------------------SECTION-FOTO---------------------------------- */
 
 .project-title {
-    margin-bottom: 50px;
-}
-
-/* ------------------------WORK------------------------ */
-
-.project-title {
     
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--body-dark-color);
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title-img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.project-title-img {
+ flex-basis:calc((100% - 90px) / 3)
+}
+
+
+
+
+
+
+
+
 
 /* -------------------------TEAM------------------------- */
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.about-team {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: calc(100% / 4 - 30px);
+}
+
+
+.about-team:not(:last-child) {
+ margin-right: 30px;
 }
 
 .work-title {
@@ -229,11 +284,7 @@ color: #2196F3;
     color: #757575;
 }
 
-.about-team {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+
 
 /* -------------------------FOOTER------------------------- */
 
@@ -241,6 +292,26 @@ color: #2196F3;
     background-color: #2F303A;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+/* .footer-container {
+    display: block;
+    flex-wrap: wrap;
+} */
+
+.link-footer {
+    font-family: "Raleway" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    /* margin-bottom: 20px; */
+}
+
+.footer-list {
+
 }
 
 
@@ -274,15 +345,7 @@ color: #2196F3;
    color:  var(--hover-focus-color);
 }
 
-.link-footer {
-    font-family: "Raleway" , sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;    
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
+
 
 
 
@@ -292,6 +355,8 @@ color: #2196F3;
 /* ХЕДЕР ВЗЯТИЙ ІЗ INDEX.HTML */
 
 /* ------------------------------MAIN BUTTON------------------------------ */
+
+
 
 
 .btn {
